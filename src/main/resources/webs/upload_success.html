@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>上传成功</title>
+</head>
+<body>
+	<#if filePaths??>
+		<#list filePaths?keys as key>
+			${filePaths[key]}
+			<br>
+		</#list>
+	</#if>
+</body>
+</html>
